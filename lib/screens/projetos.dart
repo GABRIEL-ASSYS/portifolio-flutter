@@ -15,6 +15,26 @@ class ProjectPage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         children: const [
           ProjectCard(
+            title: 'Jogo da Velha Flutter',
+            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutte com um jogo da velha simples.',
+            githubUrl: 'https://github.com/GABRIEL-ASSYS/jogo-da-velha-FLutter',
+          ),
+          ProjectCard(
+            title: 'To Do List Flutter',
+            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutte com um app de lista de tarefas onde você escreve o título da tarefa, uma pequena descrição, data e hora em que a tarefa deve ser feita e quando conclua uma tarefa pode marcar como concluída clicando em uma checkbox.',
+            githubUrl: 'https://github.com/GABRIEL-ASSYS/To-Do-List-Flutter',
+          ),
+          ProjectCard(
+            title: 'Pedra, Papel e Tesoura Flutter',
+            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutte com um jogo simples de pedra papel e tesoura.',
+            githubUrl: 'https://github.com/GABRIEL-ASSYS/pedra-papel-tesoura-Flutter',
+          ),
+          ProjectCard(
+            title: 'ADDCS Flutter',
+            description: 'Este é um projeto criado para ser apresentado como um trabalho para ser entregue em um Desafio Integrador da faculdade, a aplicação se trata de um aplicativo simples para cadastrar a entrega de embalagens de defensivos agrícolas para a empresa ADDCS.',
+            githubUrl: 'https://github.com/GABRIEL-ASSYS/ADDCS-Flutter-App',
+          ),
+          ProjectCard(
             title: 'Calculadora Científica',
             description: 'Este é um projeto pessoal com o objetivo de desenvolver o aprendizado em Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Calculadora-cientifica',
@@ -109,7 +129,6 @@ class ProjectPage extends StatelessWidget {
             description: 'Este é um projeto criado com o objetivo de aprender sobre uso de WEB API em Flutter, configurar uma API local e métodos do protocolo HTTP.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Flutter-WEB-API',
           ),
-
         ],
       ),
     );

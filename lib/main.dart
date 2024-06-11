@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portifolio/screens/contato.dart';
 import 'package:portifolio/screens/projetos.dart';
 
 void main() {
@@ -119,7 +120,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     foregroundColor: Colors.white,
                   ),
                   onPressed: () {
-                    // Navegar para a página de Contato
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const ContactPage()),
+                    );
                   },
                   child: const Text('Contato'),
                 ),
