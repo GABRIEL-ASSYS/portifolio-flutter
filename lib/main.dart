@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portifolio/screens/contato.dart';
 import 'package:portifolio/screens/projetos.dart';
+import 'package:portifolio/screens/sobre.dart';
 
 void main() {
   runApp(const MyApp());
@@ -47,13 +48,19 @@ class _MyHomePageState extends State<MyHomePage> {
           IconButton(
             icon: const Icon(Icons.info, color: Colors.white),
             onPressed: () {
-              // Navegar para a página "Sobre"
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const AboutPage()),
+              );
             },
           ),
           IconButton(
             icon: const Icon(Icons.contact_mail, color: Colors.white),
             onPressed: () {
-              // Navegar para a página "Contato"
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ContactPage()),
+              );
             },
           ),
         ],
@@ -106,7 +113,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     foregroundColor: Colors.white,
                   ),
                   onPressed: () {
-                    // Navegar para a página de Sobre Mim
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const AboutPage()),
+                    );
                   },
                   child: const Text('Sobre Mim'),
                 ),

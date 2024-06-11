@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ProjectPage extends StatelessWidget {
-  const ProjectPage({Key? key}) : super(key: key);
+  const ProjectPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -141,11 +141,11 @@ class ProjectCard extends StatelessWidget {
   final String githubUrl;
 
   const ProjectCard({
-    Key? key,
+    super.key,
     required this.title,
     required this.description,
     required this.githubUrl,
-  }) : super(key: key);
+  });
 
   void _launchURL() async {
     if (await canLaunch(githubUrl)) {
