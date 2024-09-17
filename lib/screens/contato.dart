@@ -20,7 +20,7 @@ class ContactPage extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Você pode nos contatar pelos seguintes meios:',
+              'Você pode me contatar pelos seguintes meios:',
               textAlign: TextAlign.center,
             ),
             SizedBox(height: 20),

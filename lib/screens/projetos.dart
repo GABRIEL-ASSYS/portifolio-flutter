@@ -16,17 +16,17 @@ class ProjectPage extends StatelessWidget {
         children: const [
           ProjectCard(
             title: 'Jogo da Velha Flutter',
-            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutte com um jogo da velha simples.',
+            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutter com um jogo da velha simples.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/jogo-da-velha-FLutter',
           ),
           ProjectCard(
             title: 'To Do List Flutter',
-            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutte com um app de lista de tarefas onde você escreve o título da tarefa, uma pequena descrição, data e hora em que a tarefa deve ser feita e quando conclua uma tarefa pode marcar como concluída clicando em uma checkbox.',
+            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutter com um app de lista de tarefas onde você escreve o título da tarefa, uma pequena descrição, data e hora em que a tarefa deve ser feita e quando conclua uma tarefa pode marcar como concluída clicando em uma checkbox.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/To-Do-List-Flutter',
           ),
           ProjectCard(
             title: 'Pedra, Papel e Tesoura Flutter',
-            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutte com um jogo simples de pedra papel e tesoura.',
+            description: 'Este é um projeto pessoal criado para testar o aprendizado em Flutter com um jogo simples de pedra papel e tesoura.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/pedra-papel-tesoura-Flutter',
           ),
           ProjectCard(
@@ -60,13 +60,13 @@ class ProjectPage extends StatelessWidget {
             githubUrl: 'https://github.com/GABRIEL-ASSYS/SQL-DB-Flutter',
           ),
           ProjectCard(
-            title: 'Calculo de IMC',
+            title: 'Cálculo de IMC',
             description: 'Este é um projeto criado durante uma aula da matéria de Desenvolvimento WEB/Mobile IV com o objetivo de iniciar os aprendizados em Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/App-calculo-IMC',
           ),
           ProjectCard(
             title: 'Calculadora de Combustível',
-            description: 'Este é um prjeto criado para ser entregue como trabalho na matéria de Desenvolvimento WEB/Mobile IV e trata-se de uma aplicação na qual é feito um cálculo para saber se compensa abastecer com gasolina ou etanol.',
+            description: 'Este é um projeto criado para ser entregue como trabalho na matéria de Desenvolvimento WEB/Mobile IV e trata-se de uma aplicação na qual é feito um cálculo para saber se compensa abastecer com gasolina ou etanol.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Calculadora-de-Combustivel',
           ),
           ProjectCard(
@@ -76,42 +76,42 @@ class ProjectPage extends StatelessWidget {
           ),
           ProjectCard(
             title: 'Flutter Animations Library',
-            description: 'Este é um prjeto criado com foco em animações em Flutter utilizando a biblioteca Animations do próprio FLutter.',
+            description: 'Este é um projeto criado com foco em animações em Flutter utilizando a biblioteca Animations do próprio Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Flutter-Animations-Library',
           ),
           ProjectCard(
             title: 'Testes Automatizados em Flutter',
-            description: 'Este é um prjeto criado com foco na escrita de testes de unidade aplicados em projetos Flutter.',
+            description: 'Este é um projeto criado com foco na escrita de testes de unidade aplicados em projetos Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Testes-Automatizados-Flutter',
           ),
           ProjectCard(
             title: 'Testes de Integração em Flutter',
-            description: 'Este é um prjeto criado com foco na escrita de testes de integração aplicados em projetos Flutter.',
+            description: 'Este é um projeto criado com foco na escrita de testes de integração aplicados em projetos Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Testes-de-Integra-o-Flutter',
           ),
           ProjectCard(
             title: 'Flutter Providers',
-            description: 'Este é um prjeto criado com foco na utilização de Providers para gerenciar estados em Flutter.',
+            description: 'Este é um projeto criado com foco na utilização de Providers para gerenciar estados em Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Flutter-Providers',
           ),
           ProjectCard(
             title: 'Flutter MVC',
-            description: 'Este é um prjeto criado com foco na arquitetura MVC (Model View Controller) em Flutter.',
+            description: 'Este é um projeto criado com foco na arquitetura MVC (Model View Controller) em Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Flutter-MVC',
           ),
           ProjectCard(
             title: 'Flutter Clean Architecture',
-            description: 'Este é um prjeto criado com foco em conceitos de Clean Architecture (Arquitetura Limpa) em Flutter.',
+            description: 'Este é um projeto criado com foco em conceitos de Clean Architecture (Arquitetura Limpa) em Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Flutter-Clean-Architecture',
           ),
           ProjectCard(
             title: 'Flutter Firebase',
-            description: 'Este é um prjeto criado com foco em ferramentas do Firebase sendo elas o Cloud Firestore (Um banco de dados NOSQL) e o Authenticator (Um autenticador utilizado principalmente nas funcionalidades de usuário do projeto).',
+            description: 'Este é um projeto criado com foco em ferramentas do Firebase sendo elas o Cloud Firestore (Um banco de dados NOSQL) e o Authenticator (Um autenticador utilizado principalmente nas funcionalidades de usuário do projeto).',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Flutter-Firebase',
           ),
           ProjectCard(
             title: 'Flutter Animações',
-            description: 'Este é um prjeto criado com foco em animações em Flutter.',
+            description: 'Este é um projeto criado com foco em animações em Flutter.',
             githubUrl: 'https://github.com/GABRIEL-ASSYS/Flutter-animacoes',
           ),
           ProjectCard(

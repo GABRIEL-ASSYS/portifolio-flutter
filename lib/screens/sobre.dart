@@ -20,7 +20,7 @@ class AboutPage extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Me chamo Gabriel, tenho 22 anos e curso Engenharia de Software no Centro Universitário Campo Real.',
+              'Me chamo Gabriel, tenho 23 anos e curso Engenharia de Software no Centro Universitário Campo Real.',
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 20),
