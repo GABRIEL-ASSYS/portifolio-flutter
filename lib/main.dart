@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               const CircleAvatar(
                 radius: 75,
-                backgroundImage: AssetImage('assets/foto_perfil.jpg'),
+                backgroundImage: AssetImage('assets/eu.jpg'),
                 backgroundColor: Colors.black,
               ),
               const SizedBox(height: 20),
